@@ -1,0 +1,18 @@
+@page { 
+    size:60cm 80cm; 
+    margin: 0;
+    padding:0;
+}
+
+html, body {
+    padding:0;
+}
+
+.map,    
+.labels {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 80cm;
+    width: 60cm;
+}

@@ -1,5 +1,5 @@
 @page { 
-    size:60cm 80cm; 
+    size:30cm 30cm; 
     margin: 0;
     padding:0;
 }
@@ -13,6 +13,6 @@ html, body {
     position: absolute;
     top:0;
     left:0;
-    height: 80cm;
-    width: 60cm;
+    height: 30cm;
+    width: 30cm;
 }

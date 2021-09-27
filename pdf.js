@@ -1,4 +1,4 @@
-var Prince = require("prince");
+//var Prince = require("prince");
 var jade = require('pug');
 var fs = require('fs');
 
@@ -13,7 +13,7 @@ jade.renderFile('resources/index.pug', {}, function (error, html) {
     fs.writeFile(input, html, function(error) {
         if (error) throw error;
         // generate pdf
-        Prince()
+         /*Prince()
             .inputs("map.html")
             .output("map.pdf")
             .execute()
@@ -21,6 +21,8 @@ jade.renderFile('resources/index.pug', {}, function (error, html) {
                 console.log("OK: done");
             }, function (error) {
                 console.log("ERROR", error);
-            })
+            })*/
+            
+            console.log("OK: done");
     })
 })
